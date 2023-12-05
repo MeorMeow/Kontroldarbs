@@ -1,0 +1,19 @@
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+  
+    gap:10px;
+    background-color: rgb(182, 221, 156);
+}
+
+.poga{
+background-color:white ;
+
+}
+.virsraksts{
+   
+}
