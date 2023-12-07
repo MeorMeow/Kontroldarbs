@@ -1,15 +1,13 @@
 
 .Galvene{
     background-color: #C4DFDF;
-    height: 12vh;
+    height: 11vh;
 }
 .Virsraksts{
    text-align: center;
    color: #5DA2A2;
    margin-left: 20%;
    margin-right: 20%;
-   
-   
    
 }
     
@@ -21,13 +19,12 @@ margin-left: 20%;
 margin-right: 20%;
 
 
-  
 }
 
 .btn {
-background-color:white ;
-
-
+background-color:rgb(255, 255, 255) ;
+color: rgb(69, 114, 128);
+width: 150px;
 }
 .container1{
 
@@ -42,4 +39,36 @@ background-color:white ;
     width: 65%
     
 } 
+
+.container2{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    margin-top: 10vh;
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-template-rows: 50px 100px 100px;
+
+    row-gap:300px;
+    column-gap: 40px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+p.x{
+border: solid 2px ;
+background-color: #E3F4F4 ;
+margin: 0px;
+grid-row: span 2;
+}
+
+p.y{
+    border: solid 1px ;
+    background-color: #E3F4F4 ;
+    margin: 0px;
+    grid-row: span 1;
+    }
+
+
+
 
