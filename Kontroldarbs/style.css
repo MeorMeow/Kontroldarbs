@@ -29,11 +29,17 @@ background-color:white ;
 
 
 }
-.container{
-    
+.container1{
+
+    margin: 0 auto;
+    margin-top: 4vh;
+    border: solid 30px;
+    border-color:#E3F4F4 ;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 55%;
+    width: 65%
+    
+} 
 
-}
