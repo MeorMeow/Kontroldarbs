@@ -1,0 +1,45 @@
+
+.Galvene{
+    background-color: #C4DFDF;
+    height: 12vh;
+}
+.Virsraksts{
+   text-align: center;
+   color: #5DA2A2;
+   margin-left: 20%;
+   margin-right: 20%;
+   
+   
+   
+}
+    
+.VisasPogas{  
+
+display: flex;
+justify-content: space-between ;
+margin-left: 20%;
+margin-right: 20%;
+
+
+  
+}
+
+.btn {
+background-color:white ;
+
+
+}
+.container1{
+
+    margin: 0 auto;
+    margin-top: 4vh;
+    border: solid 30px;
+    border-color:#E3F4F4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 65%
+    
+} 
+
