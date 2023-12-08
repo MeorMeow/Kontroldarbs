@@ -1,7 +1,6 @@
-
 .Galvene{
     background-color: #C4DFDF;
-    height: 11vh;
+    height: 100px;
 }
 .Virsraksts{
    text-align: center;
@@ -29,7 +28,7 @@ width: 150px;
 .container1{
 
     margin: 0 auto;
-    margin-top: 4vh;
+    margin-top: 5%;
     border: solid 30px;
     border-color:#E3F4F4 ;
     display: flex;
@@ -40,35 +39,55 @@ width: 150px;
     
 } 
 
+
+.VirsrakstsPrasmes{
+    text-align: center;
+    position: relative;
+    top: 50px;
+   
+    color: #5DA2A2;
+}
 .container2{
     margin-left: 60px;
     margin-right: 60px;
     display: grid;
     margin-top: 10vh;
-    grid-template-columns: 2fr 2fr 2fr ;
-    grid-template-rows: 50px 100px 100px;
+    grid-template-columns: 2fr 2fr 2fr 2fr ;
+    grid-template-rows: 250px;
 
-    row-gap:300px;
+    
     column-gap: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff ;
 
 
 }
 
 p.x{
-border: solid 2px ;
-background-color: #E3F4F4 ;
+   
 margin: 0px;
 grid-row: span 2;
+background-color:  #E3F4F4 ;
+}
+
+
+.container3{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    margin-top: 10vh;
+    grid-template-columns: 3fr 3fr  ;
+    grid-template-rows: 50px 100px ;
+
+
+    column-gap: 40px;
+    background-color: rgb(255, 255, 255);
 }
 
 p.y{
-    border: solid 1px ;
+    
     background-color: #E3F4F4 ;
     margin: 0px;
     grid-row: span 1;
+    
     }
-
-
-
 
