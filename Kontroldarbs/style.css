@@ -40,54 +40,36 @@ width: 150px;
 } 
 
 
-.VirsrakstsPrasmes{
-    text-align: center;
-    position: relative;
-    top: 50px;
-   
-    color: #5DA2A2;
-}
-.container2{
-    margin-left: 60px;
-    margin-right: 60px;
-    display: grid;
-    margin-top: 10vh;
-    grid-template-columns: 2fr 2fr 2fr 2fr ;
-    grid-template-rows: 250px;
-
-    
-    column-gap: 40px;
-    background-color: #ffffff ;
 
 
-}
-
-p.x{
-   
-margin: 0px;
-grid-row: span 2;
-background-color:  #E3F4F4 ;
-}
-
-
-.container3{
-    margin-left: 60px;
-    margin-right: 60px;
-    display: grid;
-    margin-top: 10vh;
-    grid-template-columns: 3fr 3fr  ;
-    grid-template-rows: 50px 100px ;
-
-
-    column-gap: 40px;
-    background-color: rgb(255, 255, 255);
-}
-
-p.y{
-    
+.KolonnasPrasmes{
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+    margin-top:5%;
     background-color: #E3F4F4 ;
-    margin: 0px;
-    grid-row: span 1;
-    
-    }
+    width:400px;
+}
 
+.VirsrakstsPrasmes{
+   color:#5DA2A2;
+   text-align:center;
+
+}
+
+
+.KolonnasPieredze{
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+    margin-top:5%;
+    background-color: #E3F4F4 ;
+    width:600px;
+}
+
+
+.VirsrakstsPieredze{
+    color:#5DA2A2;
+    text-align:center;
+
+}
