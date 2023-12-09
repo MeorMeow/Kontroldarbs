@@ -1,12 +1,12 @@
 .Galvene{
     background-color: #C4DFDF;
-    height: 100px;
+    height: 140px;
 }
 .Virsraksts{
    text-align: center;
    color: #5DA2A2;
-   margin-left: 20%;
-   margin-right: 20%;
+   border-top: solid 12px;
+   border-color: #C4DFDF;
    
 }
     
@@ -16,7 +16,7 @@ display: flex;
 justify-content: space-between ;
 margin-left: 20%;
 margin-right: 20%;
-
+margin-top:25px;
 
 }
 
@@ -46,7 +46,7 @@ width: 150px;
     justify-content:center;
     align-items:center;
     margin: 0 auto;
-    margin-top:5%;
+    margin-top:1%;
     background-color: #E3F4F4 ;
     width:400px;
 }
@@ -62,7 +62,7 @@ width: 150px;
     justify-content:center;
     align-items:center;
     margin: 0 auto;
-    margin-top:5%;
+    margin-top:1%;
     background-color: #E3F4F4 ;
     width:600px;
 }
@@ -71,5 +71,92 @@ width: 150px;
 .VirsrakstsPieredze{
     color:#5DA2A2;
     text-align:center;
+
+}
+
+p{
+    text-align:justify;
+}
+
+.Ievads1{
+    text-align:center;
+    color:#5DA2A2;
+    margin-top:170px;
+    background-color:#E3F4F4;
+}
+
+.Ievads2{
+    text-align:center;
+    color:#5DA2A2;
+    margin-top:170px;
+    background-color:#E3F4F4;
+    
+}
+
+
+.Kājene{
+    background-color:#F8F6F4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align:center;
+    border-top: solid 20px;
+    border-bottom: solid 15px;
+    border-color:#F8F6F4;
+    margin-top:150px;
+}
+
+
+.ikona1{
+width:50px;
+height:50px;
+
+
+}
+
+.ikona2{
+width:50px;
+height:50px;
+grid-column: span 2;
+   
+}
+
+.ikona3{
+width:50px;
+height:50px;
+grid-column: span 3;
+
+}
+
+li{
+    list-style: none;
+}
+
+.One{
+width:150px;
+height:140px;
+float: right;
+padding: 15px;
+
+}
+
+.Two{
+width:150px;
+height:140px;
+float: right;
+padding:15px;
+}
+
+.Three{
+width:150px;
+height:140px;
+float: right;
+padding:15px;
+}
+
+.Four{
+width:150px;
+height:140px;
+float: right;
+padding:15px;
 
 }
