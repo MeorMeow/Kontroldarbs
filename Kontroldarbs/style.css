@@ -2,13 +2,18 @@
     background-color: #C4DFDF;
     height: 140px;
 }
+
+
 .Virsraksts{
    text-align: center;
    color: #5DA2A2;
-   border-top: solid 12px;
+   border-top: solid 20px;
    border-color: #C4DFDF;
-   
+   font-family: 'Kalam', cursive;
+font-family: 'Vollkorn', serif;
+font-size:50px;
 }
+
     
 .VisasPogas{  
 
@@ -16,8 +21,7 @@ display: flex;
 justify-content: space-between ;
 margin-left: 20%;
 margin-right: 20%;
-margin-top:25px;
-
+margin-top:10px;
 }
 
 .btn {
@@ -25,6 +29,7 @@ background-color:rgb(255, 255, 255) ;
 color: rgb(69, 114, 128);
 width: 150px;
 }
+
 .container1{
 
     margin: 0 auto;
@@ -36,9 +41,35 @@ width: 150px;
     align-items: center;
     height: 55%;
     width: 65%
-    
 } 
 
+
+
+p{
+    text-align:justify;
+    font-family: 'Afacad', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Kalnia', serif;
+font-family: 'Raleway', sans-serif;
+}
+
+
+.Ievads1{
+    text-align:center;
+    color:#5DA2A2;
+    margin-top:170px;
+    background-color:#E3F4F4;
+    text-align:center;
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Kalnia', serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Vollkorn', serif;
+font-size:43px;
+}
 
 
 
@@ -51,11 +82,34 @@ width: 150px;
     width:400px;
 }
 
+
+
 .VirsrakstsPrasmes{
    color:#5DA2A2;
    text-align:center;
-
+   font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Kalnia', serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Vollkorn', serif;
 }
+
+.Ievads2{
+    text-align:center;
+    color:#5DA2A2;
+    margin-top:170px;
+    background-color:#E3F4F4;
+    text-align:center;
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Kalnia', serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Vollkorn', serif;
+font-size:43px;
+}    
+
 
 
 .KolonnasPieredze{
@@ -68,30 +122,18 @@ width: 150px;
 }
 
 
+
 .VirsrakstsPieredze{
     color:#5DA2A2;
     text-align:center;
-
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Kalnia', serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Vollkorn', serif;
 }
 
-p{
-    text-align:justify;
-}
-
-.Ievads1{
-    text-align:center;
-    color:#5DA2A2;
-    margin-top:170px;
-    background-color:#E3F4F4;
-}
-
-.Ievads2{
-    text-align:center;
-    color:#5DA2A2;
-    margin-top:170px;
-    background-color:#E3F4F4;
-    
-}
 
 
 .Kājene{
@@ -102,29 +144,25 @@ p{
     border-top: solid 20px;
     border-bottom: solid 15px;
     border-color:#F8F6F4;
-    margin-top:150px;
+   
 }
 
 
 .ikona1{
 width:50px;
 height:50px;
-
-
 }
 
 .ikona2{
 width:50px;
 height:50px;
 grid-column: span 2;
-   
 }
 
 .ikona3{
 width:50px;
 height:50px;
 grid-column: span 3;
-
 }
 
 li{
@@ -136,7 +174,6 @@ width:150px;
 height:140px;
 float: right;
 padding: 15px;
-
 }
 
 .Two{
@@ -158,5 +195,4 @@ width:150px;
 height:140px;
 float: right;
 padding:15px;
-
 }
